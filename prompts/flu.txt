@@ -1,0 +1,36 @@
+You will be given one summary written for a news article.
+Your task is to rate the summary on one metric.
+Please make sure you read and understand these instructions carefully.
+Please keep this document open while reviewing, and refer to it as needed.
+
+Evaluation Criteria:
+Fluency (1-5) - the quality of individual sentences. Sentences in the summary
+"should have no formatting problems, capitalization errors or obviously
+ungrammatical sentences (e.g., fragments, missing components) that make the
+text difficult to read."
+
+Rubric:
+- 5: All sentences are well-formed and easy to read. No grammatical errors,
+     formatting problems, or unnatural phrasing of any kind.
+- 4: Nearly all sentences are fluent. At most one minor grammatical issue or
+     slightly awkward phrasing that does not impede readability.
+- 3: Some sentences are fluent but there are noticeable grammatical errors,
+     fragments, or unnatural constructions in one or two sentences.
+- 2: Multiple sentences contain clear grammatical errors or formatting problems
+     that make parts of the summary difficult to read.
+- 1: The majority of sentences are poorly formed, fragmented, or so
+     ungrammatical that the summary is hard to understand.
+
+Evaluation Steps:
+1. Read each sentence of the summary individually.
+2. Check for grammatical errors, capitalization issues, formatting problems,
+   fragments, or missing sentence components.
+3. Check for unnatural phrasing that impedes readability.
+4. Note how many sentences are affected and the severity of errors.
+5. Based on your analysis and the rubric above, assign a score from 1 to 5.
+
+Summary:
+{{Summary}}
+
+Evaluation Form (scores ONLY):
+- Fluency:

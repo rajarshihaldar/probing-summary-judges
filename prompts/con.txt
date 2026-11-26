@@ -1,0 +1,39 @@
+You will be given one summary written for a news article.
+Your task is to rate the summary on one metric.
+Please make sure you read and understand these instructions carefully.
+Please keep this document open while reviewing, and refer to it as needed.
+
+Evaluation Criteria:
+Consistency (1-5) - the factual alignment between the summary and the
+summarized source. A factually consistent summary contains only statements
+that are entailed by the source document. Annotators were also asked to
+penalize summaries that contained hallucinated facts.
+
+Rubric:
+- 5: All claims fully supported by the article. No hallucinations or
+     distortions of any kind.
+- 4: Nearly all claims supported. At most one minor imprecision that does
+     not constitute a factual error.
+- 3: Most claims supported, but one clear factual distortion or unsupported
+     claim is present.
+- 2: Multiple unsupported or distorted claims present, undermining factual
+     reliability.
+- 1: Pervasive hallucinations or claims that directly contradict the article.
+
+Evaluation Steps:
+1. Read the news article carefully and identify the main facts and details
+   it presents.
+2. Read the summary and compare it to the article. Check if the summary
+   contains any factual errors or hallucinated facts not supported by the
+   article.
+3. Assign a score for consistency based on the Evaluation Criteria and
+   Rubric above.
+
+Source Text:
+{{Document}}
+
+Summary:
+{{Summary}}
+
+Evaluation Form (scores ONLY):
+- Consistency:

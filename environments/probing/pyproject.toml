@@ -1,0 +1,26 @@
+[project]
+name = "probing-summary-judges-probing"
+version = "0.1.0"
+description = "Environment for the reported ordinal probes."
+requires-python = ">=3.13"
+dependencies = [
+    "jsonlines==4.0.0",
+    "kaleido==1.3.0",
+    "krippendorff==0.8.2",
+    "matplotlib==3.10.9",
+    "mord==0.7",
+    "numpy==2.4.4",
+    "openpyxl==3.1.5",
+    "pandas==3.0.2",
+    "plotly==6.7.0",
+    "scikit-learn==1.8.0",
+    "scipy==1.17.1",
+    "seaborn==0.13.2",
+    "tabulate==0.10.0",
+    "torch==2.11.0",
+    "tqdm==4.67.3",
+    "transformers==5.7.0",
+]
+
+[tool.uv]
+package = false

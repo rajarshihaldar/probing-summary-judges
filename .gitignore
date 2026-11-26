@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.py[cod]
+.ruff_cache/
+.pytest_cache/
+results/
+activations_results/
+quality_causality_results/
+.DS_Store
+.env
+.env.*
+!.env.example
